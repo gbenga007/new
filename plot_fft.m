@@ -4,6 +4,7 @@ function plot_fft(data,patient_id,repetitions,gesture,fatigue_state)
 % each row represents a repetition of the acoustic signal
 % "a-normal/a-pressed"
 % patient_id represents the patient ID's
+ x=1;
 
 if(nargin < 5)
     error('Not enough input arguments. Example Usage :: plot_fft( fft_fatigued_normal,[21,22],[1:5],1,1)');
